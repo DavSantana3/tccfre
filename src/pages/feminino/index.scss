@@ -1,0 +1,39 @@
+
+
+
+
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .product-item {
+    text-align: center;
+    width: calc(33.333% - 20px); 
+    margin-bottom: 20px;
+  }
+  
+  .product-item img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .product-item p {
+    margin-top: 10px;
+    font-size: 14px; 
+    color: #555; 
+  }
+  
+
+  

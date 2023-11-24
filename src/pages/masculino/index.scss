@@ -1,0 +1,63 @@
+
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  .produtos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .produtos-item {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .produtos-item img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .produtos-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-media-icons a {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .payment-methods {
+    /* Add styles for payment methods if needed */
+  }
+  
+  .contact-info,
+  .address {
+    max-width: 300px;
+  }
+  
+  .contact-info a {
+    color: #fff;
+  }
+  
+  /* Add more styles as needed */
+  

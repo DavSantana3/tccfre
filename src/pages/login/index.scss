@@ -1,0 +1,146 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Cabecalhoow {
+  width: 100%;
+  height: 70px;
+  background: #781c03;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.Logo {
+  width: 60px;
+  height: auto;
+  margin-left: 20px;
+}
+
+
+.principal {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #070425, #4871a4);
+
+}
+
+
+.metade-esquerda {
+  flex: 1;
+  height: 100vh;
+  background: url(../../assets/images/skatista.png);
+  background-size: cover;
+}
+
+
+.metade-direita {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.degrade {
+  background: linear-gradient(to right, #001021, #5e85ad); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.formulario-login {
+  border-radius: 10px;
+  background: linear-gradient(to right, #3678b9, #052443);
+  border: 2px solid #201f1f;
+  box-shadow: 0 0 10px rgba(149, 143, 143, 0.2);
+  color: #ccc;
+  padding: 20px;
+  width: 80%;
+  max-width: 300px;
+  height: 250px;
+  text-align: center;
+  position: relative; 
+}
+
+.login-title {
+  
+  padding: 10px;
+  color: #fff;
+  position: absolute;
+  top: -82px; 
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 75px;
+  border-radius: 5px;
+  z-index: 2; 
+}
+
+
+
+
+
+
+.formulario-login input[type="password"] {
+  
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+ 
+}
+
+
+.formulario-login input[type="textooo"]{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+ 
+}
+
+.formulario-login button {
+  width: 50%;
+  padding: 10px;
+  background: #2e9fdc;
+  margin-bottom: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+  border: 2px solid #000; 
+  box-sizing: border-box; 
+
+
+  
+}
+
+.formulario-login button:hover {
+  background-color: #073f62;
+  
+}
+
+
+@media (max-width: 840px) {
+  .metade-esquerda {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .metade-esquerda {
+    background-image: url(../../assets/images/skatista.png);
+  }
+}

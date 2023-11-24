@@ -1,0 +1,32 @@
+
+
+.ContainerDeProdutos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .ItemDeProduto {
+    text-align: center;
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .ItemDeProduto img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .ItemDeProduto img:hover {
+    transform: scale(1.1);
+  }
+  
+  .ItemDeProduto p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}

@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Cabecalhooo {
+  background: rgb(104, 15, 15);
+  color: rgb(109, 8, 8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  
+
+  .Logo {
+    width: 45px;
+    transition: width 0.3s;
+  }
+
+  .grupo-de-ícones {
+    display: flex;
+    align-items: center;
+
+    a {
+      
+      color: rgb(32, 31, 31);
+      font-size: 19px;
+      margin-right: 10px; 
+      font-family: Arial;
+     
+
+      &:hover {
+        color: #b1092b;
+        font-size: 20px; 
+      }
+
+      &:hover i {
+        text-decoration: none;
+      font-size: 19px;
+      margin-right: 10px;
+      transition: color 0.4s, font-size 0.3s, margin-right 0.3s;
+        color: #b1092b;
+      }
+    }
+
+    i {
+      margin-left: 10px;
+    }
+  }
+
+  @media (max-width: 770px) {
+    .Logo {
+      width: 30px;
+    }
+
+    .grupo-de-ícones a {
+      font-size: 20px; 
+      margin-right: 5px;
+    }
+
+    
+  }
+}
+
+
+
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.BarraNavegacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; 
+  padding: 10px;
+  background-color: rgb(99, 31, 31);
+  color: rgb(247, 242, 242);
+  margin-top: -10px;
+
+  .ItensNav {
+    display: flex;
+
+    .ItemNav {
+      margin-left: 15px; 
+      margin-right: 15px;
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.3s;
+      margin-left: 30px;
+      margin-top: 20px;
+      font: 1em sans-serif;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+
+  .Hamburguer {
+    display: none;
+  }
+
+  .MenuMobile {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: red;
+    padding: 10px;
+
+    .ItemMenuMobile {
+      margin-bottom: 15px; 
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .ItensNav {
+      display: none;
+    }
+
+    .Hamburguer {
+      display: flex;
+      margin-right: 200px;
+    }
+
+    .MenuMobile {
+      display: flex;
+    }
+  }
+}
+
+@media (max-width: 548px) {
+  .search-container input[type="text"] {
+    width: 60%; 
+    font-size: 14px; 
+  }
+
+  .Logo {
+   width: 40px;
+  }
+}
+
+
+@media (max-width: 507px) {
+  .search-container input[type="text"] {
+     width: 40%;
+    font-size: 10px; 
+    margin-right: -10px;
+  }
+
+  .Logo {
+   width: 25px;
+   margin-left: -7px;
+  }
+}
+
+
+
+
+
+
+
+/* Adicione estas classes ao seu arquivo de estilo */
+
+.Carrossel {
+  width: 80%; /* Ajuste a largura conforme necessário */
+  margin: auto; /* Centraliza o carrossel na página */
+}
+
+.Produto {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%; /* Garante que cada produto ocupe 100% da largura do container */
+}
+
+.ImagemProduto {
+  max-width: 100%;
+  height: auto;
+}
+
+.DetalhesProduto {
+  margin-top: 10px;
+}
+
+.NomeProduto,
+.ValorProduto,
+.EstrelasProduto {
+  margin: 5px 0;
+}
+
+.FavoritoProduto {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ff0000; /* Cor do coração não selecionado */
+}
+
+.FavoritoProduto.favorito {
+  color: #ff4500; /* Cor do coração selecionado */
+}

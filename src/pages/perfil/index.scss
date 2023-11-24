@@ -1,0 +1,176 @@
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.Cabecalhooo {
+  width: 100%;
+  height: 70px;
+  background: #781c03;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.Logo {
+  width: 60px;
+  height: auto;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-info {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.perfil-info h2 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.perfil-info p {
+  color: #666;
+}
+
+
+section {
+  max-width: 800px;
+  margin: 100px auto 20px; 
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Status Styles */
+.status {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.status-item {
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.status-item:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.pago {
+  background-color: #8BC34A; /* Verde */
+  color: #fff;
+}
+
+.processamento {
+  background-color: #FFC107; /* Amarelo */
+  color: #333;
+}
+
+.enviados {
+  background-color: #2196F3; /* Azul */
+  color: #fff;
+}
+
+/* Adicione estilos para o footer */
+
+footer {
+  background-color: #958282;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.social-icons i {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+
+
+.servico span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.favoritos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.favorito-item {
+  flex-basis: calc(25% - 20px); /* 4 items por linha, com margens entre eles */
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.favorito-item:hover {
+  transform: scale(1.1);
+}
+
+.favorito-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.favorito-item h5 {
+  margin-top: 10px;
+  text-align: center;
+}

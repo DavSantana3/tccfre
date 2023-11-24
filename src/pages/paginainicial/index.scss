@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+  }
+  
+  .Cabecalho {
+    width: 100%;
+    height: 70px;
+    background-color: #033278;
+  
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .Logo {
+    width: 50px;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  .Cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  
+  .Config {
+    align-self: flex-end;
+    cursor: pointer;
+  }
+  
+  
+  .container {
+    width: 20%;
+    background: linear-gradient(to bottom,  #073f82, #010925f9);
+    height: 100vh;
+    float: left;
+    border: 2px solid #111111;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 70%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+    color: #fff;
+  }
+  
+  .menu p {
+    font-family: monospace;
+    
+    font-size: 26px;
+    transition: background 0.3s, color 0.3s;
+    color: black;
+    font-weight: 900;
+    
+  }
+  
+  .menu p:hover {
+    background: rgba(128, 128, 128, 0.3);
+    color: #fff;
+  }
+  
+  .conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #070425, #4871a4);
+  
+  }
+  
+  .direita {
+    margin-top: 20px; 
+    
+  }
+  
+  .Perfil {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+  }
+  
+  .bx-edit {
+    font-size: 24px; 
+    color: #dad3d3; 
+    cursor: pointer;
+    transform: translateX(-20px);
+  }
+  
+  .bem-vindo {
+    margin-top: 10px; 
+    font-size: 25px;
+    color: #fff;
+  }
+  
+  
+
+
+@media (max-width: 820px) {
+  .menu p {
+    font-size: 20px; 
+    letter-spacing: 2px; 
+  }
+}
+
+
+@media (max-width: 770px) {
+  .menu p {
+    display: none; 
+  }
+
+  
+  .hamburger-button {
+    display: block;
+    background: #033278;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+}

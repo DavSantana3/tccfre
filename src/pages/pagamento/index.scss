@@ -1,0 +1,84 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.App {
+    text-align: center;
+  }
+  
+  .fundo {
+    background: linear-gradient(to bottom, #bc0d0d, #530d18);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .payment-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .address-form label,
+  .payment-options label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .address-form input,
+  .payment-options button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .payment-button {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button#pix-button {
+    background: #00FF88;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-button:hover {
+    background: #f0f0f0; 
+    transform: scale(1.05); 
+  }
+  
+  button#pix-button:hover {
+    background: #00DD77;
+  }
+  
+  button#pix-button:focus {
+    outline: none;
+  }
+  
+  button#pix-button:active {
+    background: #00CC66;
+  }
+
+  
